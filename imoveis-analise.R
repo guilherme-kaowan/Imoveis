@@ -14,3 +14,14 @@ tabela_itens
 mediaimposto <- table(dados$imposto_anual>mean(dados$imposto_anual))
 tabela_imposto <- prop.table(mediaimposto)
 tabela_imposto
+hist(dados$preco, 
+     main = "Distribuição dos Preços dos Imóveis",
+     xlab = "Preço", 
+     col = "blue", 
+     border = "white")
+plot(x = dados$metragem, y = dados$imposto,
+     main = "Relação: Metragem vs Imposto",
+     xlab = "Metragem",
+     ylab = "Imposto ",
+     pch = 20, 
+     col = "black")
