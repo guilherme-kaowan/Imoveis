@@ -19,7 +19,7 @@ hist(dados$preco,
      xlab = "Preço", 
      col = "blue", 
      border = "white")
-plot(x = dados$metragem, y = dados$imposto,
+plot(x = dados$metragem, y = dadosgit $imposto,
      main = "Relação: Metragem vs Imposto",
      xlab = "Metragem",
      ylab = "Imposto ",
